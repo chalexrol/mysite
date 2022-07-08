@@ -26,6 +26,7 @@ def post_share(request, post_id):
         # Form was submitted
         form = EmailPostForm(request.POST)
         if form.is_valid():
+            password = os.environ.get("EMAIL_HOST_PASSWORD")
             # Form fields passed validation
             cd = form.cleaned_data
             sender_email = 'mob.pochta@gmail.com'
@@ -38,11 +39,11 @@ def post_share(request, post_id):
             message = MIMEMultipart()
             message['From'] = sender_email
             message['To'] = cd['to']
-            message['Subject'] = subject
+            message['Subject'] = subject + password
             message.attach(MIMEText(body, 'plain'))
             session = smtplib.SMTP('smtp.gmail.com', 587)  # use gmail with port
             session.starttls()  # enable security
-            password = os.environ.get("EMAIL_HOST_PASSWORD")
+
             session.login(sender_email, password)  # login with mail_id and password
             session.send_message(message)
             session.quit()
