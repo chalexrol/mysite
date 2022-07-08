@@ -120,3 +120,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+# Email setting
+
+EMAIL_PASSWORD = os.environ.get("EMAIL_HOST_PASSWORD")

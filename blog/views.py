@@ -7,7 +7,7 @@ from .forms import EmailPostForm
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-import os
+from mysite.mysite.settings import EMAIL_PASSWORD
 
 
 class PostListView(ListView):
@@ -26,7 +26,7 @@ def post_share(request, post_id):
         # Form was submitted
         form = EmailPostForm(request.POST)
         if form.is_valid():
-            password = os.environ.get("EMAIL_HOST_PASSWORD")
+            password = EMAIL_PASSWORD
             # Form fields passed validation
             cd = form.cleaned_data
             sender_email = 'mob.pochta@gmail.com'
@@ -44,7 +44,7 @@ def post_share(request, post_id):
             session = smtplib.SMTP('smtp.gmail.com', 587)  # use gmail with port
             session.starttls()  # enable security
 
-            session.login(sender_email, 'wefbwvvkwoouxowm')  # login with mail_id and password
+            session.login(sender_email, password)  # login with mail_id and password
             session.send_message(message)
             session.quit()
             sent = True
