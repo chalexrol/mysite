@@ -1,0 +1,552 @@
+Skip to content
+Product 
+Team
+Enterprise
+Explore 
+Marketplace
+Pricing 
+Search
+Sign in
+Sign up
+PacktPublishing
+/
+Django-3-by-Example
+Public
+Code
+Issues
+50
+Pull requests
+8
+Actions
+Wiki
+Security
+Insights
+Django-3-by-Example/Chapter01/mysite/blog/static/css/blog.css
+@zenx
+zenx Add Chapter 01 code
+Latest commit 98ee67d on 15 Oct 2019
+ History
+ 1 contributor
+92 lines (83 sloc)  1.29 KB
+
+body { 
+    margin:0;
+    padding:0;
+    font-family:helvetica, sans-serif; 
+}
+
+a { 
+    color:#00abff;
+    text-decoration:none; 
+}
+
+h1 { 
+    font-weight:normal;
+    border-bottom:1px solid #bbb;
+    padding:0 0 10px 0;
+}
+
+h2 {
+    font-weight:normal;
+    margin:30px 0 0;
+}
+
+#content { 
+    float:left;
+    width:60%;
+    padding:0 0 0 30px; 
+}
+
+#sidebar { 
+    float:right;
+    width:30%;
+    padding:10px;
+    background:#efefef; 
+    height:100%;
+}
+
+p.date { 
+    color:#ccc;
+    font-family: georgia, serif;
+    font-size: 12px;
+    font-style: italic; 
+}
+
+/* pagination */
+.pagination { 
+    margin:40px 0; 
+    font-weight:bold;
+}
+
+/* forms */
+label { 
+    float:left;
+    clear:both;
+    color:#333;
+    margin-bottom:4px; 
+}
+input, textarea { 
+    clear:both;
+    float:left;
+    margin:0 0 10px;
+    background:#ededed;
+    border:0;
+    padding:6px 10px;
+    font-size:12px;
+}
+input[type=submit] {
+    font-weight:bold;
+    background:#00abff;
+    color:#fff;
+    padding:10px 20px;
+    font-size:14px;
+    text-transform:uppercase; 
+}
+.errorlist { 
+    color:#cc0033;
+    float:left;
+    clear:both;
+    padding-left:10px; 
+}
+
+/* comments */
+.comment {
+    padding:10px;
+}
+.comment:nth-child(even) {
+    background:#efefef;
+}
+.comment .info {
+    font-weight:bold;
+    font-size:12px;
+    color:#666;
+}
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
+перейти к содержанию Товар Команда Предприятие Исследовать Торговая площадка Цены Войти Подписаться PacktPublishing / Джанго-3 на примере Общественный УведомленияFork 665 Звезда 628 Код вопросы 50 Пулл-реквесты 8 Действия Вики Безопасность Инсайты мастер Django-3-by-Example/Chapter01/mysite/blog/static/css/blog.css Перейти к файлу zenx Добавить код главы 01 Последний коммит 98ee67d от 15 октября 2019 г. История 1 участник 92 строки (83 слота) 1,29 КБ RawBlame тело { маржа: 0; заполнение: 0; семейство шрифтов: Helvetica, без засечек; } а { цвет:#00abff; текстовое оформление: нет; } ч1 { вес шрифта: нормальный; нижняя граница: 1px сплошная #bbb; отступ: 0 0 10px 0; } ч2 { вес шрифта: нормальный; поле: 30px 0 0; } #содержание { плыть налево; ширина:60%; отступ: 0 0 0 30 пикселей; } #боковая панель { поплавок: справа; ширина: 30%; отступ: 10 пикселей; фон:#efefef; высота:100%; } п.дата { цвет:#ccc; семейство шрифтов: грузия, с засечками; размер шрифта: 12px; стиль шрифта: курсив; } /* нумерация страниц */ .pagination { поле: 40px 0; вес шрифта: полужирный; } /* формы */ этикетка { плыть налево; ясно: оба; цвет:#333; нижняя граница: 4px; } ввод, текстовая область { ясно: оба; плыть налево; поле: 0 0 10 пикселей; фон:#ededed; граница:0; отступ: 6px 10px; размер шрифта: 12px; } ввод [тип = отправить] { вес шрифта: полужирный; фон:#00abff; цвет:#fff; отступ: 10 пикселей 20 пикселей; размер шрифта: 14px; преобразование текста: верхний регистр; } .список_ошибок { цвет:#cc0033; плыть налево; ясно: оба; отступ слева: 10 пикселей; } /* Комментарии */ .комментарий { отступ: 10 пикселей; } .comment: n-й ребенок (четный) { фон:#efefef; } .комментарий .info { вес шрифта: полужирный; размер шрифта: 12px; цвет:#666; } Нижний колонтитул © 2022 GitHub, Inc. Нижний колонтитул навигации Условия Конфиденциальность Безопасность Статус Документы Связаться с GitHub Цены API Подготовка Блог О Загрузка завершенаSkip to content
+Product 
+Team
+Enterprise
+Explore 
+Marketplace
+Pricing 
+Search
+Sign in
+Sign up
+PacktPublishing
+/
+Django-3-by-Example
+Public
+Code
+Issues
+50
+Pull requests
+8
+Actions
+Wiki
+Security
+Insights
+Django-3-by-Example/Chapter01/mysite/blog/static/css/blog.css
+@zenx
+zenx Add Chapter 01 code
+Latest commit 98ee67d on 15 Oct 2019
+ History
+ 1 contributor
+92 lines (83 sloc)  1.29 KB
+
+body { 
+    margin:0;
+    padding:0;
+    font-family:helvetica, sans-serif; 
+}
+
+a { 
+    color:#00abff;
+    text-decoration:none; 
+}
+
+h1 { 
+    font-weight:normal;
+    border-bottom:1px solid #bbb;
+    padding:0 0 10px 0;
+}
+
+h2 {
+    font-weight:normal;
+    margin:30px 0 0;
+}
+
+#content { 
+    float:left;
+    width:60%;
+    padding:0 0 0 30px; 
+}
+
+#sidebar { 
+    float:right;
+    width:30%;
+    padding:10px;
+    background:#efefef; 
+    height:100%;
+}
+
+p.date { 
+    color:#ccc;
+    font-family: georgia, serif;
+    font-size: 12px;
+    font-style: italic; 
+}
+
+/* pagination */
+.pagination { 
+    margin:40px 0; 
+    font-weight:bold;
+}
+
+/* forms */
+label { 
+    float:left;
+    clear:both;
+    color:#333;
+    margin-bottom:4px; 
+}
+input, textarea { 
+    clear:both;
+    float:left;
+    margin:0 0 10px;
+    background:#ededed;
+    border:0;
+    padding:6px 10px;
+    font-size:12px;
+}
+input[type=submit] {
+    font-weight:bold;
+    background:#00abff;
+    color:#fff;
+    padding:10px 20px;
+    font-size:14px;
+    text-transform:uppercase; 
+}
+.errorlist { 
+    color:#cc0033;
+    float:left;
+    clear:both;
+    padding-left:10px; 
+}
+
+/* comments */
+.comment {
+    padding:10px;
+}
+.comment:nth-child(even) {
+    background:#efefef;
+}
+.comment .info {
+    font-weight:bold;
+    font-size:12px;
+    color:#666;
+}
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
+перейти к содержанию Товар Команда Предприятие Исследовать Торговая площадка Цены Войти Подписаться PacktPublishing / Джанго-3 на примере Общественный УведомленияFork 665 Звезда 628 Код вопросы 50 Пулл-реквесты 8 Действия Вики Безопасность Инсайты мастер Django-3-by-Example/Chapter01/mysite/blog/static/css/blog.css Перейти к файлу zenx Добавить код главы 01 Последний коммит 98ee67d от 15 октября 2019 г. История 1 участник 92 строки (83 слота) 1,29 КБ RawBlame тело { маржа: 0; заполнение: 0; семейство шрифтов: Helvetica, без засечек; } а { цвет:#00abff; текстовое оформление: нет; } ч1 { вес шрифта: нормальный; нижняя граница: 1px сплошная #bbb; отступ: 0 0 10px 0; } ч2 { вес шрифта: нормальный; поле: 30px 0 0; } #содержание { плыть налево; ширина:60%; отступ: 0 0 0 30 пикселей; } #боковая панель { поплавок: справа; ширина: 30%; отступ: 10 пикселей; фон:#efefef; высота:100%; } п.дата { цвет:#ccc; семейство шрифтов: грузия, с засечками; размер шрифта: 12px; стиль шрифта: курсив; } /* нумерация страниц */ .pagination { поле: 40px 0; вес шрифта: полужирный; } /* формы */ этикетка { плыть налево; ясно: оба; цвет:#333; нижняя граница: 4px; } ввод, текстовая область { ясно: оба; плыть налево; поле: 0 0 10 пикселей; фон:#ededed; граница:0; отступ: 6px 10px; размер шрифта: 12px; } ввод [тип = отправить] { вес шрифта: полужирный; фон:#00abff; цвет:#fff; отступ: 10 пикселей 20 пикселей; размер шрифта: 14px; преобразование текста: верхний регистр; } .список_ошибок { цвет:#cc0033; плыть налево; ясно: оба; отступ слева: 10 пикселей; } /* Комментарии */ .комментарий { отступ: 10 пикселей; } .comment: n-й ребенок (четный) { фон:#efefef; } .комментарий .info { вес шрифта: полужирный; размер шрифта: 12px; цвет:#666; } Нижний колонтитул © 2022 GitHub, Inc. Нижний колонтитул навигации Условия Конфиденциальность Безопасность Статус Документы Связаться с GitHub Цены API Подготовка Блог О Загрузка завершенаSkip to content
+Product 
+Team
+Enterprise
+Explore 
+Marketplace
+Pricing 
+Search
+Sign in
+Sign up
+PacktPublishing
+/
+Django-3-by-Example
+Public
+Code
+Issues
+50
+Pull requests
+8
+Actions
+Wiki
+Security
+Insights
+Django-3-by-Example/Chapter01/mysite/blog/static/css/blog.css
+@zenx
+zenx Add Chapter 01 code
+Latest commit 98ee67d on 15 Oct 2019
+ History
+ 1 contributor
+92 lines (83 sloc)  1.29 KB
+
+body { 
+    margin:0;
+    padding:0;
+    font-family:helvetica, sans-serif; 
+}
+
+a { 
+    color:#00abff;
+    text-decoration:none; 
+}
+
+h1 { 
+    font-weight:normal;
+    border-bottom:1px solid #bbb;
+    padding:0 0 10px 0;
+}
+
+h2 {
+    font-weight:normal;
+    margin:30px 0 0;
+}
+
+#content { 
+    float:left;
+    width:60%;
+    padding:0 0 0 30px; 
+}
+
+#sidebar { 
+    float:right;
+    width:30%;
+    padding:10px;
+    background:#efefef; 
+    height:100%;
+}
+
+p.date { 
+    color:#ccc;
+    font-family: georgia, serif;
+    font-size: 12px;
+    font-style: italic; 
+}
+
+/* pagination */
+.pagination { 
+    margin:40px 0; 
+    font-weight:bold;
+}
+
+/* forms */
+label { 
+    float:left;
+    clear:both;
+    color:#333;
+    margin-bottom:4px; 
+}
+input, textarea { 
+    clear:both;
+    float:left;
+    margin:0 0 10px;
+    background:#ededed;
+    border:0;
+    padding:6px 10px;
+    font-size:12px;
+}
+input[type=submit] {
+    font-weight:bold;
+    background:#00abff;
+    color:#fff;
+    padding:10px 20px;
+    font-size:14px;
+    text-transform:uppercase; 
+}
+.errorlist { 
+    color:#cc0033;
+    float:left;
+    clear:both;
+    padding-left:10px; 
+}
+
+/* comments */
+.comment {
+    padding:10px;
+}
+.comment:nth-child(even) {
+    background:#efefef;
+}
+.comment .info {
+    font-weight:bold;
+    font-size:12px;
+    color:#666;
+}
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
+перейти к содержанию Товар Команда Предприятие Исследовать Торговая площадка Цены Войти Подписаться PacktPublishing / Джанго-3 на примере Общественный УведомленияFork 665 Звезда 628 Код вопросы 50 Пулл-реквесты 8 Действия Вики Безопасность Инсайты мастер Django-3-by-Example/Chapter01/mysite/blog/static/css/blog.css Перейти к файлу zenx Добавить код главы 01 Последний коммит 98ee67d от 15 октября 2019 г. История 1 участник 92 строки (83 слота) 1,29 КБ RawBlame тело { маржа: 0; заполнение: 0; семейство шрифтов: Helvetica, без засечек; } а { цвет:#00abff; текстовое оформление: нет; } ч1 { вес шрифта: нормальный; нижняя граница: 1px сплошная #bbb; отступ: 0 0 10px 0; } ч2 { вес шрифта: нормальный; поле: 30px 0 0; } #содержание { плыть налево; ширина:60%; отступ: 0 0 0 30 пикселей; } #боковая панель { поплавок: справа; ширина: 30%; отступ: 10 пикселей; фон:#efefef; высота:100%; } п.дата { цвет:#ccc; семейство шрифтов: грузия, с засечками; размер шрифта: 12px; стиль шрифта: курсив; } /* нумерация страниц */ .pagination { поле: 40px 0; вес шрифта: полужирный; } /* формы */ этикетка { плыть налево; ясно: оба; цвет:#333; нижняя граница: 4px; } ввод, текстовая область { ясно: оба; плыть налево; поле: 0 0 10 пикселей; фон:#ededed; граница:0; отступ: 6px 10px; размер шрифта: 12px; } ввод [тип = отправить] { вес шрифта: полужирный; фон:#00abff; цвет:#fff; отступ: 10 пикселей 20 пикселей; размер шрифта: 14px; преобразование текста: верхний регистр; } .список_ошибок { цвет:#cc0033; плыть налево; ясно: оба; отступ слева: 10 пикселей; } /* Комментарии */ .комментарий { отступ: 10 пикселей; } .comment: n-й ребенок (четный) { фон:#efefef; } .комментарий .info { вес шрифта: полужирный; размер шрифта: 12px; цвет:#666; } Нижний колонтитул © 2022 GitHub, Inc. Нижний колонтитул навигации Условия Конфиденциальность Безопасность Статус Документы Связаться с GitHub Цены API Подготовка Блог О Загрузка завершена перейти к содержанию Товар Предприятие Исследовательская площадка Цены Войти Подписаться на PacktPublishing / Джанго-3 на возвышение Общественный УведомленияFork 665 Звезда 628 Код вопросы 50 Пулл-реквесты 8 Действия Вики Безопасность Инсайты мастер Django-3-by-Example/Chapter01/mysite/blog/ static/css/blog.css Перейти к файлу zenx Добавить код депутата 01 Последний коммит 98ee67d от 15 октября 2019 г. История 1 участник 92 строки (83 слота) 1,29 КБ RawBlame тело { маржа: 0; заполнение: 0; семейство шрифтов: Helvetica, без засечек; } а { цвет:#00abff; текстовое оформление: нет; } ч1 { шрифта: нормальный; нижняя граница: 1px сплошная #bbb; отступ: 0 0 10px 0; } ч2 { шрифта: нормальный; поле: 30px 0 0; } #содержание { плыть налево; ширина: 60%; отступ: 0 0 0 30 охват; } #боковая панель { поплавок: справа; ширина: 30%; отступ: 10 приход; фон:#efefef; высота:100%; } п.дата { цвет:#ccc; семейство шрифтов: грузия, с засечками; размер шрифта: 12px; стиль шрифта: курсив; } /* нумерация страниц */ .pagination { поле: 40px 0; шрифта: полужирный; } /* формы */ этикетка { плыть налево; ясно: оба; цвет:#333; нижняя граница: 4px; } ввод, текстовая область { ясно: оба; плыть налево; поле: 0 0 10 событий; фон:#ededed; границы:0; отступ: 6px 10px; размер шрифта: 12px; } ввод [тип = отправить] { вес шрифта: полужирный; фон:#00abff; цвет:#fff; отступ: 10 собраний 20 собраний; размер шрифта: 14px; преобразование текста: верхний регистр; } .список_ошибок { цвет:#cc0033; плыть налево; ясно: оба; отступ слева: 10 приход; } /* Комментарии */ .commentary { отступ: 10 участия; } .comment: n-й ребенок (четный) { фон:#efefef; } .комментарий .info { вес шрифта: полужирный; размер шрифта: 12px; цвет:#666; } Нижний колонтитул © 2022 GitHub, Inc. Нижний колонтитул навигации Условия Конфиденциальности Безопасность Статус Документы Связаться с GitHub Цены API Подготовка Блог О Загрузка завершенаSkip to content
+Product 
+Team
+Enterprise
+Explore 
+Marketplace
+Pricing 
+Search
+Sign in
+Sign up
+PacktPublishing
+/
+Django-3-by-Example
+Public
+Code
+Issues
+50
+Pull requests
+8
+Actions
+Wiki
+Security
+Insights
+Django-3-by-Example/Chapter01/mysite/blog/static/css/blog.css
+@zenx
+zenx Add Chapter 01 code
+Latest commit 98ee67d on 15 Oct 2019
+ History
+ 1 contributor
+92 lines (83 sloc)  1.29 KB
+
+body { 
+    margin:0;
+    padding:0;
+    font-family:helvetica, sans-serif; 
+}
+
+a { 
+    color:#00abff;
+    text-decoration:none; 
+}
+
+h1 { 
+    font-weight:normal;
+    border-bottom:1px solid #bbb;
+    padding:0 0 10px 0;
+}
+
+h2 {
+    font-weight:normal;
+    margin:30px 0 0;
+}
+
+#content { 
+    float:left;
+    width:60%;
+    padding:0 0 0 30px; 
+}
+
+#sidebar { 
+    float:right;
+    width:30%;
+    padding:10px;
+    background:#efefef; 
+    height:100%;
+}
+
+p.date { 
+    color:#ccc;
+    font-family: georgia, serif;
+    font-size: 12px;
+    font-style: italic; 
+}
+
+/* pagination */
+.pagination { 
+    margin:40px 0; 
+    font-weight:bold;
+}
+
+/* forms */
+label { 
+    float:left;
+    clear:both;
+    color:#333;
+    margin-bottom:4px; 
+}
+input, textarea { 
+    clear:both;
+    float:left;
+    margin:0 0 10px;
+    background:#ededed;
+    border:0;
+    padding:6px 10px;
+    font-size:12px;
+}
+input[type=submit] {
+
+    color:#fff;
+    padding:10px 20px;
+    font-size:14px;
+    text-transform:uppercase; 
+}
+.errorlist { 
+    color:#cc0033;
+    float:left;
+    clear:both;
+    padding-left:10px; 
+}
+
+/* comments */
+.comment {
+    padding:10px;
+}
+.comment:nth-child(even) {
+    background:#efefef;
+}
+.comment .info {
+    font-weight:bold;
+    font-size:12px;
+    color:#666;
+}
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
+перейти к содержанию Товар Команда Предприятие Исследовать Торговая площадка Цены Войти Подписаться PacktPublishing / Джанго-3 на примере Общественный УведомленияFork 665 Звезда 628 Код вопросы 50 Пулл-реквесты 8 Действия Вики Безопасность Инсайты мастер Django-3-by-
