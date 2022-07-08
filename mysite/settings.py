@@ -25,7 +25,7 @@ SECRET_KEY = 'w@xb*4#7!0et3d!5(7(rg7@wu0s3x9^-6srkzueslr9kbv5-3='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['chalexrol.pythonanywhere.com']
+ALLOWED_HOSTS = ['chalexrol.pythonanywhere.com', '127.0.0.1']
 
 
 # Application definition
@@ -120,13 +120,3 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-
-# Email config
-
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'mob.pochta@gmail.com'
-EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_HOST_PASSWORD")
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-EMAIL_USE_SSL = False
