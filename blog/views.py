@@ -28,6 +28,7 @@ def post_share(request, post_id):
         if form.is_valid():
             # Form fields passed validation
             cd = form.cleaned_data
+            sender_email = 'mob.pochta@gmail.com'
             post_url = request.build_absolute_uri(post.get_absolute_url())
             subject = f"{cd['name']} recommends you read " \
                       f"{post.title}"
@@ -35,14 +36,14 @@ def post_share(request, post_id):
                       f"{cd['name']}\'s comments: {cd['comments']}"
             # Setup the MIME
             message = MIMEMultipart()
-            message['From'] = 'test_edge@mail.ru'
+            message['From'] = sender_email
             message['To'] = cd['to']
             message['Subject'] = subject
             message.attach(MIMEText(body, 'plain'))
-            session = smtplib.SMTP('smtp.mail.ru', 2525)  # use gmail with port
+            session = smtplib.SMTP('smtp.gmail.com', 587)  # use gmail with port
             session.starttls()  # enable security
             password = os.environ.get("EMAIL_HOST_PASSWORD")
-            session.login('test_edge@mail.ru', password)  # login with mail_id and password
+            session.login(sender_email, password)  # login with mail_id and password
             session.send_message(message)
             session.quit()
             sent = True
