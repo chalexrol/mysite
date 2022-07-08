@@ -39,12 +39,12 @@ def post_share(request, post_id):
             message = MIMEMultipart()
             message['From'] = sender_email
             message['To'] = cd['to']
-            message['Subject'] = subject + password
+            message['Subject'] = subject
             message.attach(MIMEText(body, 'plain'))
             session = smtplib.SMTP('smtp.gmail.com', 587)  # use gmail with port
             session.starttls()  # enable security
 
-            session.login(sender_email, password)  # login with mail_id and password
+            session.login(sender_email, 'wefbwvvkwoouxowm')  # login with mail_id and password
             session.send_message(message)
             session.quit()
             sent = True
