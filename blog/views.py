@@ -7,7 +7,7 @@ from .forms import EmailPostForm
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-from mysite.mysite.settings import EMAIL_PASSWORD
+from django.conf import settings
 
 
 class PostListView(ListView):
@@ -26,7 +26,7 @@ def post_share(request, post_id):
         # Form was submitted
         form = EmailPostForm(request.POST)
         if form.is_valid():
-            password = EMAIL_PASSWORD
+            password = settings.EMAIL_PASSWORD
             # Form fields passed validation
             cd = form.cleaned_data
             sender_email = 'mob.pochta@gmail.com'
