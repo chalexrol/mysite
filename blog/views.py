@@ -45,7 +45,6 @@ def post_share(request, post_id):
             message.attach(MIMEText(body, 'plain'))
             session = smtplib.SMTP('smtp.gmail.com', 587)  # use gmail with port
             session.starttls()  # enable security
-
             session.login(sender_email, password)  # login with mail_id and password
             session.send_message(message)
             session.quit()
